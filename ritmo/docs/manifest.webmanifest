@@ -1,0 +1,48 @@
+{
+  "name": "Ritmo",
+  "short_name": "Ritmo",
+  "description": "Il tuo Daily OS: acqua, workout, lavoro, attività, progetti e casa.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e3e5e8",
+  "theme_color": "#e3e5e8",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bevi un bicchiere",
+      "url": "./?add=water"
+    },
+    {
+      "name": "Avvia un blocco da 15 minuti",
+      "url": "./?focus=start"
+    },
+    {
+      "name": "Da fare",
+      "url": "./#todo"
+    }
+  ]
+}
